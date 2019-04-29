@@ -301,4 +301,3 @@ if __name__ == "__main__":
     model = KNN(n_classes=3, neighbor_num=3)
     model.fit(train_data_x=np.array([[2, 3], [5, 4], [9, 6], [4, 7], [8, 1], [7, 2]]), train_data_y=np.array([1, 2, 1, 2, 1, 1]))
     print(model.predict(target=np.array([11.9, 2.8])))
-    # finish
